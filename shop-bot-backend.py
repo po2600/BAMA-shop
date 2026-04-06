@@ -1,5 +1,3 @@
-filters.StatusUpdate.WEB_APP_DATA
-
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 
