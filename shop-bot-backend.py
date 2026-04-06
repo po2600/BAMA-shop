@@ -5,7 +5,7 @@ async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
     data = update.message.web_app_data.data
     await update.message.reply_text(f"🛒 Order received:\n{data}\n\nSend your name, phone, address.")
 
-app = ApplicationBuilder().token("YOUR_BOT_TOKEN").build()
+app = ApplicationBuilder().token("8617548147:AAH7qLehaBLN_NNPolfGEfrsqjNTTZfJSuA").build()
 
 app.add_handler(MessageHandler(filters.StatusUpdate.WEB_APP_DATA, handle))
 
