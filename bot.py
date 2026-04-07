@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import *
 import json
 
-ADMIN_ID = 123456789
+ADMIN_ID = 1507647928
 
 products = []
 orders = []
