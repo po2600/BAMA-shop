@@ -72,7 +72,7 @@ async def list_orders(update: Update, context: ContextTypes.DEFAULT_TYPE):
         text += o + "\n"
     await update.message.reply_text(text)
 
-app = ApplicationBuilder().token("YOUR_BOT_TOKEN").build()
+app = ApplicationBuilder().token("8617548147:AAH7qLehaBLN_NNPolfGEfrsqjNTTZfJSuA").build()
 
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("add", add_product))
